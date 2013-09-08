@@ -8,7 +8,7 @@
 	/*Scale the size down to fit*/
 }
 
-/*Animation for rotation*/
+/*Animation for rotation - optional
 
 @keyframes rotate {
 	from {
@@ -36,42 +36,39 @@
 	}
 }
 
-
-/*Debugger: Find how to prevent tug on start position - refer to JS*/
-
 #Move {
-	/*left: 560px;
-	top: 728px;*/
+	/*
 	animation: rotate 5s infinite;
 	-webkit-animation: rotate 5s infinite;
+	*/
 }
 
 #Move1 {
-	/*left: 234px;
-	top: 535px;*/
+	/*
 	animation: rotate 5s infinite;
 	-webkit-animation: rotate 5s infinite;
+	*/
 }
 
 #Move2 {
-	/*left: 636px;
-	top: 424px;*/
+	/*
 	animation: rotate 5s infinite;
 	-webkit-animation: rotate 5s infinite;
+	*/
 }
 
 #Move3 {
-	/*left: 763px;
-	top: 525px;*/
+	/*
 	animation: rotate 5s infinite;
 	-webkit-animation: rotate 5s infinite;
+	*/
 }
 
 #Move4 {
-	/*left: 334px;
-	top: 632px;*/
+	/*
 	animation: rotate 5s infinite;
 	-webkit-animation: rotate 5s infinite;
+	*/
 }
 
 
