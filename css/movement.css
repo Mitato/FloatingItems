@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Move, #Move1, #Move2, #Move3, #Move4 {
+	z-index:-87648237682;
+	width: 100px;
+	height: auto;
+	/*Scale the size down to fit*/
+}
+
+/*Animation for rotation*/
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+	}
+}
+
+
+/*Debugger: Find how to prevent tug on start position - refer to JS*/
+
+#Move {
+	/*left: 560px;
+	top: 728px;*/
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite;
+}
+
+#Move1 {
+	/*left: 234px;
+	top: 535px;*/
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite;
+}
+
+#Move2 {
+	/*left: 636px;
+	top: 424px;*/
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite;
+}
+
+#Move3 {
+	/*left: 763px;
+	top: 525px;*/
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite;
+}
+
+#Move4 {
+	/*left: 334px;
+	top: 632px;*/
+	animation: rotate 5s infinite;
+	-webkit-animation: rotate 5s infinite;
+}
+
+
+
+
+
+
