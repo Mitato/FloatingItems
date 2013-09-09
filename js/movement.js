@@ -125,7 +125,6 @@ function moving4(){
 	//Styles for images
 	
 	object4.style.position = "absolute";
-	//var clientwidth = window.clientWidth;
 	
 	//End Styles for images
 	var randomnm4 = Math.random()*1500 + "px";
