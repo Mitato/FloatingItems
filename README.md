@@ -22,9 +22,9 @@ You can change the links to your images instead and this will just replace the i
 -If you want less images you can jsyt delete all the spare ones and not worry about the ids
 -If you want to add more images - Not recommended as this is a distraction on some sites - then do the following...
 
-Adding More Images:
+<h1>Adding More Images:</h1>
 
-1. In the HTML add another img tag...
+1. In the HTML add another image tag...
 <pre>
 <code>
 &lt;img src="yourimage.png" id="Move3" /&gt;
@@ -93,3 +93,36 @@ Notice the only things I have changed are:
   - The references to the variables in the last JQuery function
 
 Ensure you do all the above when adding an image to the file.
+
+<h1>Adding CSS3 Rotation:</h1>
+
+<p>The rotation capability is new and a really nice effect for adding in some real snaz to your sites...</p>
+<p>To add in the rotation capability the first and only file you need to be working in is the main CSS file, enter this file
+and see the first area in need of un-commenting. There is actually only a small part if this file which relates to the styles
+of different elements, most of the content relates to the CSS3 rotate animation.</p>
+<ol>
+	<li>Uncomment the keyframes rotate animations (both webkit and normal compatibility modes)</li>
+	<li>AFTER the two keyframes rotate definitions; </li>
+	<p>add in the following code: </p>
+	<pre>
+	<code>
+	#Move, #Move1, #Move2, #Move3, #Move4 {
+		animation: rotate 5s infinite;
+		-webkit-animation: rotate 5s infinite;
+	}
+	</code>
+	</pre>
+	<p>That's all there is to it, now when you run this file the images will be rotating...</p>
+	<li>If you have more than five images...</li>
+	<p>If you have more than five images and have followed the instructions above for how to add additional images then
+	all you have to do to ensure that all your images are rotating is to add in the ids of the extra images into the selector
+	above...</p>
+	<pre>
+	<code>
+	#Move, #Move1, #Move2, #Move3, #Move4, #Move5, Image7, etc {
+		animation: rotate 5s infinite;
+		-webkit-animation: rotate 5s infinite;
+	}
+	</code>
+	</pre>
+</ol>
